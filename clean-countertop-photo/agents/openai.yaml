@@ -1,0 +1,14 @@
+interface:
+  display_name: Clean Countertop Photos
+  short_description: Clean jobsite photos without changing the real work
+  default_prompt: Use $clean-countertop-photo to make this countertop project photo
+    look clean and finished with minimal editing.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
